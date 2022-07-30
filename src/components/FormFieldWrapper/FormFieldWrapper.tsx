@@ -3,6 +3,8 @@ export interface FormFieldWrapperProps {
   label: string;
 }
 
-export const FormFieldWrapper = () => {
+export const FormFieldWrapper:React.FunctionComponent<FormFieldWrapperProps & React.HTMLProps<HTMLInputElement>> = (
+
+) => {
   return <></>;
 }

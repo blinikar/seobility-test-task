@@ -1,0 +1,15 @@
+.field-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    margin-bottom: 8px;
+}
+
+.errors {
+    color: #e70101;
+}
+
+p {
+    margin: 0
+}
